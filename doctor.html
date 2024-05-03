@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HopeFinder</title>
+    <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <!-- Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Navbar-Section -->
+  <section id="title">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd; ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../hack2/images/logo.jpg" alt="" width="60" height="44">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav_align">
+            <li class="nav-item">
+              <a class="nav-link active nav-item" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="#">Facility</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-item" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item" role="button" href="#">Appointment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="#">Contact</a>
+            </li>
+            <button class="btn btn-danger signup-login mx-2" data-bs-toggle="modal"
+                        data-bs-target="#adminlogin">Admin Login</button>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Intro Section -->
+  <section class="intro-pg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <img src="#" alt="">
+            </div class="col-lg-4 text-center">
+                <strong><p>We have greatest hospitals, doctors <br> and medical technology ....we need to make <br> them accessible to every Indian.</p></strong>
+            </div>
+            <div class="col-lg-4 text-center">
+                <img src="#" alt="">
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <!-- Search Section -->
+  <div class="row  d-flex justify-content-center align-items-center">
+        <div class="col-md-8">
+            <div class="search"> <i class="fa fa-search"></i> <input type="text" class="form-control" placeholder="Search"> <button class="btn btn-primary">Search</button> </div>
+        </div>
+    </div>
+
+
+    <!--Doctor Section-->
+    <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
+        <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+            <div class="col">
+                <div class="card h-100 shadow-sm"> <img src="../hack2/images/doctor2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">Dr Avipsa</span> <span class="float-end price-hp">8am-10am </span> </div>
+                        <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                        <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Appointment</a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm"> <img src="../hack2/images/doctor3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">Dr Raj</span> <span class="float-end"><a href="#">5pm-8pm</a></span> </div>
+                        <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                        <div class="d-grid gap-2 my-4"> <a href="#" class="btn btn-warning">Book Appointment</a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm"> <img src="../hack2/images/doctor4.jpg" class="card-img-top" alt="...">
+                    <div class="label-top shadow-sm">Dr. Sharma</div>
+                    <div class="card-body">
+                        <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">1pm-4pm</span> <span class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
+                        <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                        <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Appointment</a> </div>
+                        <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm"> <img src="../hack2/images/doctor5.jpeg" class="card-img-top" alt="...">
+                    <div class="label-top shadow-sm">Dr. Das</div>
+                    <div class="card-body">
+                        <div class="clearfix mb-3"> <span class="float-start price-hp">4pm-9pm</span> <span class="float-end"><a class="text-muted small" href="#">Reviews</a></span> </div>
+                        <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                        <div class="text-center my-4"> <a href="login.php" class="btn btn-warning">Book Appointment</a> </div>
+                        <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
